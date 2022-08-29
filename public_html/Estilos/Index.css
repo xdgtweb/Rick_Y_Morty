@@ -1,0 +1,428 @@
+/* 
+    Created on : 19 jul 2022, 15:11:39
+    Author     : xxxdd
+*/
+
+html
+{
+    cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+}
+
+body
+{
+/*    background-image: url("../Imagenes/Index/fondo.jpg");*/
+    background-color:  black;
+    background-size: contain;
+/*    background-repeat: no-repeat;*/
+    padding: 0px 50px 0px 50px;
+    cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+}
+
+body > header
+{
+    background-color: transparent;
+}
+
+body header .titulo
+{
+    background-image: url("../Imagenes/Index/rickymortytitulo.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 70px 70px 70px 70px;
+    transition: 0.3s;
+    transform: rotate(0deg);
+
+}
+
+body header .titulo:active
+{
+    background-image: url("../Imagenes/Index/RickMortyTitulo2.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 70px 70px 70px 70px;
+    transition: 0.3s;
+    transform: rotate(360deg);
+}
+
+body .navpadre
+{
+    border: #0000ff solid 1px;
+    border-radius: 7px;
+    background-color: #00001a;
+    box-shadow: 0px 0px 10px #0000ff, inset 0px 0px 20px #0000ff;
+    margin-bottom: 10px;
+}
+
+body .navpadre nav
+{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body .navpadre nav a .caja1 > .caja2
+{
+    padding: 20px 20px 20px 20px;
+    background-image: url(../Imagenes/Index/pistoladeportales.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    border-bottom: 2px transparent solid;
+}
+
+body .navpadre nav a .caja1 > .caja2:hover
+{
+    padding: 20px 20px 20px 20px;
+    background-image: url("../Imagenes/Index/portalinerdimensional2.gif");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+body .navpadre nav a > .caja1
+{
+    text-align: center;
+    display: inline-grid;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+/*    border: #3AFF00 1px solid;*/
+}
+
+body .navpadre nav a .caja1 > label
+{
+    text-align: center;
+    display: block;
+    -webkit-text-stroke: 0.4px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body .navpadre nav a .caja1 > .caja2 > label 
+{
+/*    aqui*/
+    text-decoration: none;
+}
+
+body article
+{
+    border-radius: 7px;
+    background-color: #071D00;
+        width: 450px;
+        margin: 10px;
+        height: 300px;
+        float: initial;
+    border: 1px solid #3AFF00;
+    
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    
+}
+
+body article .art2 > label
+{
+    border-radius: 5px 0px 7px 0px;
+    padding: 3px 3px 3px 3px;
+    background-color: #3AFF00;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    -webkit-text-stroke: 0.0px black;
+    font-weight: bold;
+    font-family: ordenador;
+}
+
+body article .art3 > label
+{
+    padding: 10px 10px 0px 10px;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    -webkit-text-stroke: 0.4px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+    font-family: ordenador
+}
+
+body main .foto1
+{
+    border-radius: 7px;
+    width: 100px;
+    margin: 10px;
+    height: 100px;
+    
+    padding: 50px 50px 50px 50px;
+    background-image: url(../Imagenes/Index/rickmododios.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #330000;
+    
+    border: 1px red solid;
+    
+    box-shadow: 0px 0px 10px red, inset 0px 0px 20px red;
+    transition: 0.3s;
+}
+
+body main .foto1:active
+{
+
+    background-image: url(../Imagenes/Index/rickbrazos.png);
+    transition: 0.3s;
+}
+
+body main .cajamain2
+{
+/*    border: 3px orange solid;*/
+    display: flex;
+}
+
+body main > section > label
+{
+    color: black;
+    -webkit-text-stroke: 0.0px black;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+body .nav2
+{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body .nav2 .caja4
+{
+    padding: 30px 30px 30px 30px;
+    background-image: url(../Imagenes/Index/rickriendo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+body .nav2 .caja4:hover
+{
+    transition: 0.2s;
+    background-image: url(../Imagenes/Index/rickgifrotando.gif);
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+body .nav2 > .caja3 > label
+{
+    text-align: center;
+    display: block;
+    -webkit-text-stroke: 0.4px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body .nav2 .caja6
+{
+    padding: 30px 30px 30px 30px;
+    background-image: url(../Imagenes/Index/rickextrañado.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+body .nav2 .caja6:hover
+{
+    transition: 0.2s;
+    background-image: url(../Imagenes/Index/rickgifrotando.gif);
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+body .nav2 > .caja5 > label
+{
+    text-align: center;
+    display: block;
+    -webkit-text-stroke: 0.4px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body .nav2 .caja8
+{
+    padding: 30px 30px 30px 30px;
+    background-image: url(../Imagenes/Index/rickenmalestado.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+body .nav2 .caja8:hover
+{
+    transition: 0.2s;
+    background-image: url(../Imagenes/Index/rickgifrotando.gif);
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+body .nav2 > .caja7 > label
+{
+    text-align: center;
+    display: block;
+    -webkit-text-stroke: 0.4px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body main > section
+{
+    background-color: #3fe09d;
+    border-radius: 5px 0px 5px 0px;
+    padding: 5px;
+    
+    display: inline-grid;
+}
+
+body main section > label
+{
+    font-family: ordenador;
+}
+
+body main
+{
+    border: 1px #3fe09d solid;
+    border-radius: 7px;
+    background-color: transparent;
+    -webkit-text-stroke: 0.4px #b4df24;
+    color: #01b5cc;
+    background-color: #001e15;
+    
+    box-shadow: 0px 0px 10px #3fe09d, inset 0px 0px 20px #3fe09d;
+    margin-top: 10px;
+}
+
+body main > label
+{
+    border: 3px solid blue;
+    position: relative;
+    display: inline-block;
+}
+
+body footer
+{
+    border: #ffff00 solid 1px;
+    border-radius: 7px;
+    background-color: #161600;
+    text-align: center;
+    
+    box-shadow: 0px 0px 10px #ffff00, inset 0px 0px 20px #ffff00;
+    margin-top: 10px;
+}
+
+body footer .footer1
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body footer .footer1 > label
+{
+    color: white;
+    font-size: 13px;
+    font-family: ordenador;
+}
+
+body footer .footer2
+{
+    
+}
+
+body footer .footer2 > label
+{
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 13px;
+    border-left: white solid 1px;
+    font-family: ordenador;
+}
+
+body footer .footer2 .cajafooter1
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+body footer .footer2 .cajafooter1 > label
+{
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 13px;
+    border-left: white solid 1px;
+    font-family: ordenador;
+}
+
+body footer .footer2 .cajafooter1 .logoanucio
+{
+    padding: 6px 6px 6px 6px;
+    background-image: url(../Imagenes/Index/logoanuncios.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+}
+
+body footer .footer3 > label
+{
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 10px;
+}
+
+/*@media (min-width: 700px)
+{
+    body
+    {
+        padding: 0px 80px 0px 80px;
+    }
+
+    body article .art2 label
+    {
+        display: inline-block;
+    }
+
+    body article .art3 label
+    {
+        position: relative;
+        display: inline-block;
+    }
+    
+    body main
+    {
+        display: inline-grid;
+    }
+}*/
+
+@font-face 
+{
+    font-family: ordenador;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../TiposDeLetra/data-control/data-latin.ttf);
+}
