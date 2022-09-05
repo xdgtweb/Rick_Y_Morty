@@ -1,0 +1,1900 @@
+/* 
+    Created on : 19 jul 2022, 15:11:39
+    Author     : xxxdd
+*/
+
+html
+{
+    cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+}
+
+body
+{
+/*    background-image: url("../Imagenes/Index/fondo.jpg");*/
+    background-color:  black;
+    background-size: contain;
+/*    background-repeat: no-repeat;*/
+    padding: 0px 50px 0px 50px;
+    cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+}
+
+body > .menu
+{
+    left: 50%;
+    transform: translate(-50%, 0%);
+/*    -webkit-transform: translate(-50%, -50%);*/
+    position: fixed;
+    bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    word-wrap: break-word;
+    background-color: #660066;
+    border: #ff33ff 1px solid;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px #ff33ff, inset 0px 0px 20px #ff33ff;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default; /* no funciona */
+}
+
+body .menu > a
+{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #01b5cc;
+    -webkit-text-stroke: 0.7px #b4df24;
+    font-family: ordenador;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default; /* no funciona */
+}
+
+body > header
+{
+    background-color: transparent;
+}
+
+body header .titulo
+{
+    background-image: url("../Imagenes/Index/rickymortytitulo2.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 80px 80px 80px 80px;
+    transition: 0.3s;
+    transform: rotate(0deg);
+
+}
+
+body header .titulo:active
+{
+    background-image: url("../Imagenes/Index/RickMortyTitulo2.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 80px 80px 80px 80px;
+    transition: 0.3s;
+    transform: rotate(360deg);
+}
+
+body .navpadre
+{
+    border: #0000ff solid 1px;
+    border-radius: 7px;
+    background-color: #00001a;
+    box-shadow: 0px 0px 10px #0000ff, inset 0px 0px 20px #0000ff;
+    margin-bottom: 10px;
+}
+
+body .navpadre nav
+{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body .navpadre nav > a
+{
+    text-decoration: none;
+}
+
+body .navpadre nav a .caja1 > .caja2
+{
+    padding: 20px 20px 20px 20px;
+    background-image: url(../Imagenes/Index/pistoladeportales.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    border-bottom: 2px transparent solid;
+}
+
+body .navpadre nav a .caja1 > .caja2:hover
+{
+    padding: 20px 20px 20px 20px;
+    background-image: url("../Imagenes/Index/portalinerdimensional2.gif");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+body .navpadre nav a > .caja1
+{
+    text-align: center;
+    display: inline-grid;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-bottom: 7.5px;
+/*    border: #3AFF00 1px solid;*/
+}
+
+body .navpadre nav a .caja1 > label
+{
+    text-align: center;
+    display: block;
+    -webkit-text-stroke: 0.7px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body .navpadre nav a .caja1 .caja2 > label 
+{
+    text-decoration: none;
+}
+
+body .nav2
+{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body .nav2 .caja4
+{
+    padding: 30px 30px 30px 30px;
+    background-image: url(../Imagenes/Index/rickriendo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+body .nav2 .caja4:hover
+{
+    transition: 0.2s;
+    background-image: url(../Imagenes/Index/rickgifrotando.gif);
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+body .nav2 a .caja3 > label
+{
+    text-align: center;
+    display: block;
+    -webkit-text-stroke: 0.7px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body .nav2 .caja6
+{
+    padding: 30px 30px 30px 30px;
+    background-image: url(../Imagenes/Index/rickextrañado.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+body .nav2 .caja6:hover
+{
+    transition: 0.2s;
+    background-image: url(../Imagenes/Index/rickgifrotando.gif);
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+body .nav2 a .caja5 > label
+{
+    text-align: center;
+    display: block;
+    -webkit-text-stroke: 0.7px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body .nav2 .caja8
+{
+    padding: 30px 30px 30px 30px;
+    background-image: url(../Imagenes/Index/rickenmalestado.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+body .nav2 .caja8:hover
+{
+    transition: 0.2s;
+    background-image: url(../Imagenes/Index/rickgifrotando.gif);
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+body .nav2 a .caja7 > label
+{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    -webkit-text-stroke: 0.7px #b4df24;
+    color: #01b5cc;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body .nav2 > a
+{
+    text-decoration: none;
+}
+
+body > main
+{
+    border: 1px #3fe09d solid;
+    border-radius: 7px;
+    background-color: transparent;
+    color: #01b5cc;
+    background-color: #001e15;
+    
+    box-shadow: 0px 0px 10px #3fe09d, inset 0px 0px 20px #3fe09d;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+body main > .main2
+{
+    text-align: left;
+}
+
+body main .main2 > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3fe09d;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+    font-family: ordenador;
+}
+
+body main > .main3
+{
+/*    border: 1px orange solid;*/
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0; /*para los espacios que se generan en html xd */
+}
+
+body main .main3 .cajamain1
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain2
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain3
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain4
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain5
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain6
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain7
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain8
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain9
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain10
+{
+    border: 1px #3AFF00 solid;
+    border-radius: 7px;
+    background-color: #071D00;
+    display: inline-grid;
+    text-align: left;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    margin: 5px;
+    width: 340px;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+}
+
+body main .main3 .cajamain1 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain2 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain3 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain4 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain5 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain6 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain7 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain8 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain9 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain10 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain11 > a
+{
+    text-decoration: none;
+    color: white;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    
+}
+
+body main .main3 .cajamain1 a > .previsualizacion1
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion1.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain1 a > .previsualizacion1:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain2 a > .previsualizacion2
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion2.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain2 a > .previsualizacion2:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain3 a > .previsualizacion3
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion3.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain3 a > .previsualizacion3:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain4 a > .previsualizacion4
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion4.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain4 a > .previsualizacion4:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain5 a > .previsualizacion5
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion5.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain5 a > .previsualizacion5:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain6 a > .previsualizacion6
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion6.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain6 a > .previsualizacion6:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain7 a > .previsualizacion7
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion7.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain7 a > .previsualizacion7:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain8 a > .previsualizacion8
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion8.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain8 a > .previsualizacion8:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain9 a > .previsualizacion9
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion9.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain9 a > .previsualizacion9:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain10 a > .previsualizacion10
+{
+    padding: 50px 120px 50px 120px;
+    margin: 10px;
+    border-radius: 7px;
+    background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion10.jpg);
+    background-size: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain10 a > .previsualizacion10:hover
+{
+    background-size: 400px;
+    transition: 0.5s;
+}
+
+body main .main3 .cajamain1 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain2 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain3 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain4 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain5 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain6 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain7 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain8 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain9 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain10 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain11 a > label
+{
+    border-radius: 5px 0px 7px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain1 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain2 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain3 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain4 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain5 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain6 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 5px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain7 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain8 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 5px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain9 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain10 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain11 a .tituloEpisodio > label
+{
+    border-radius: 7px 0px 5px 0px;
+    background-color: #3AFF00;
+    display: inline-grid;
+    float: right;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-family: ordenador;
+}
+
+body main .main3 .cajamain1 a .previsualizacion1 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain2 a .previsualizacion2 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain3 a .previsualizacion3 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain4 a .previsualizacion4 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain5 a .previsualizacion5 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain6 a .previsualizacion6 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain7 a .previsualizacion7 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain8 a .previsualizacion8 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain9 a .previsualizacion9 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain10 a .previsualizacion10 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body main .main3 .cajamain11 a .previsualizacion11 > .playlogo
+{
+    padding: 40px 40px 40px 40px;
+    background-image: url(../Imagenes/Temporada1/playsimbolo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body footer
+{
+    border: #ffff00 solid 1px;
+    border-radius: 7px;
+    background-color: #161600;
+    text-align: center;
+    
+    box-shadow: 0px 0px 10px #ffff00, inset 0px 0px 20px #ffff00;
+    margin-top: 10px;
+}
+
+body footer .footer1
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body footer .footer1 > label
+{
+    color: white;
+    font-size: 13px;
+}
+
+body footer .footer2
+{
+    
+}
+
+body footer .footer2 > label
+{
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 13px;
+    border-left: white solid 1px;
+}
+
+body footer .footer2 .cajafooter1
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+body footer .footer2 .cajafooter1 > label
+{
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 13px;
+    border-left: white solid 1px;
+}
+
+body footer .footer2 .cajafooter1 .logoanucio
+{
+    padding: 6px 6px 6px 6px;
+    background-image: url(../Imagenes/Index/logoanuncios.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+}
+
+body footer .footer3 > label
+{
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 480px)
+{
+    /* moviles */
+
+    body
+    {
+        padding: 0px 10px 0px 10px;
+    }
+    
+    body header .titulo
+    {
+        background-image: url("../Imagenes/Index/rickymortytitulo2.png");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 60px 60px 60px 60px;
+        transition: 0.3s;
+        transform: rotate(0deg);
+
+    }
+
+    body header .titulo:active
+    {
+        background-image: url("../Imagenes/Index/RickMortyTitulo2.png");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 60px 60px 60px 60px;
+        transition: 0.3s;
+        transform: rotate(360deg);
+    }
+    
+    body .navpadre nav a .caja1 > .caja2
+    {
+        padding: 18px 18px 18px 18px;
+        background-image: url(../Imagenes/Index/pistoladeportales.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+        display: inline-block;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        border-bottom: 2px transparent solid;
+    }
+    
+    body .navpadre nav a .caja1 > .caja2:hover
+    {
+        padding: 18px 18px 18px 18px;
+        background-image: url("../Imagenes/Index/portalinerdimensional2.gif");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+    }
+    
+    body .navpadre nav a .caja1 > label
+    {
+        text-align: center;
+        font-size: 13px;
+        display: block;
+        -webkit-text-stroke: 0.7px #b4df24;
+        color: #01b5cc;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+
+    body .nav2 .caja4
+    {
+        padding: 27px 27px 27px 27px;
+        background-image: url(../Imagenes/Index/rickriendo.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.2s;
+    }
+
+    body .nav2 .caja4:hover
+    {
+        transition: 0.2s;
+        background-image: url(../Imagenes/Index/rickgifrotando.gif);
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    }
+
+    body .nav2 a .caja3 > label
+    {
+        text-align: center;
+        font-size: 13px;
+        display: block;
+        -webkit-text-stroke: 0.7px #b4df24;
+        color: #01b5cc;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    body .nav2 .caja6
+    {
+        padding: 27px 27px 27px 27px;
+        background-image: url(../Imagenes/Index/rickextrañado.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.2s;
+    }
+
+    body .nav2 .caja6:hover
+    {
+        transition: 0.2s;
+        background-image: url(../Imagenes/Index/rickgifrotando.gif);
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    }
+
+    body .nav2 a .caja5 > label
+    {
+        text-align: center;
+        font-size: 13px;
+        display: block;
+        -webkit-text-stroke: 0.7px #b4df24;
+        color: #01b5cc;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    body .nav2 .caja8
+    {
+        padding: 27px 27px 27px 27px;
+        background-image: url(../Imagenes/Index/rickenmalestado.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.2s;
+    }
+
+    body .nav2 .caja8:hover
+    {
+        transition: 0.2s;
+        background-image: url(../Imagenes/Index/rickgifrotando.gif);
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    }
+
+    body .nav2 a .caja7 > label
+    {
+        text-align: center;
+        font-size: 13px;
+        text-decoration: none;
+        display: block;
+        -webkit-text-stroke: 0.7px #b4df24;
+        color: #01b5cc;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    body main .cajamain1
+    {
+        /*    border: 3px orange solid;*/
+        display: inline-block;
+    }
+    
+    body main .main2 > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3fe09d;
+        display: inline-grid;
+        font-size: 15px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+        font-family: ordenador;
+    }
+
+    body main .main3 .cajamain1 a > .previsualizacion1
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion1.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain1 a > .previsualizacion1:hover
+    {
+        background-size: 340px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain2 a > .previsualizacion2
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion2.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain2 a > .previsualizacion2:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain3 a > .previsualizacion3
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion3.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain3 a > .previsualizacion3:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain4 a > .previsualizacion4
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion4.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain4 a > .previsualizacion4:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain5 a > .previsualizacion5
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion5.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain5 a > .previsualizacion5:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain6 a > .previsualizacion6
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion6.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain6 a > .previsualizacion6:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain7 a > .previsualizacion7
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion7.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain7 a > .previsualizacion7:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain8 a > .previsualizacion8
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion8.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain8 a > .previsualizacion8:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain9 a > .previsualizacion9
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion9.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain9 a > .previsualizacion9:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain10 a > .previsualizacion10
+    {
+        padding: 8px 60px 8px 60px;
+        margin: 5px;
+        border-radius: 7px;
+        background-image: url(../Imagenes/Temporada5/Previsualizaciones/previsualizacion10.jpg);
+        background-size: 206px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+    }
+
+    body main .main3 .cajamain10 a > .previsualizacion10:hover
+    {
+        background-size: 380px;
+        transition: 0.5s;
+    }
+    
+    body main .main3 .cajamain1
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain2
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain3
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain4
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain5
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain6
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain7
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain8
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain9
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain10
+    {
+        border: 1px #3AFF00 solid;
+        border-radius: 7px;
+        background-color: #071D00;
+        display: inline-grid;
+        text-align: left;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        margin: 5px;
+        width: 210px;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    }
+    
+    body main .main3 .cajamain1 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain2 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain3 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain4 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain5 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain6 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain7 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain8 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain9 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain10 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+     body main .main3 .cajamain11 a > label
+    {
+        border-radius: 5px 0px 7px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain1 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain2 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain3 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain4 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain5 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain6 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 5px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain7 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain8 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 5px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain9 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain10 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    body main .main3 .cajamain11 a .tituloEpisodio > label
+    {
+        border-radius: 7px 0px 5px 0px;
+        background-color: #3AFF00;
+        display: inline-grid;
+        float: right;
+        font-size: 12px;
+        color: black;
+        padding: 5px;
+        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+        font-family: ordenador;
+    }
+    
+    
+
+}
+
+@font-face 
+{
+    font-family: ordenador;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../TiposDeLetra/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
