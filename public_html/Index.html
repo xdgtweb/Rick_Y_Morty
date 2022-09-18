@@ -9,24 +9,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./Estilos/Index.css"/>
+        <link rel="stylesheet" href="./Estilos/Contacto y donacion.css"/>
         <link rel="icon" type="image/png" href="Imagenes/Index/rickextrañado.png">
         <sound src="Musica/Index/Space Song.mp3" type="audio/mp3" autoplay="none" loop="infinite"></sound>
     </head>
     <body>
-
-        <?php
-        
-        $archivo = "./Contador/contador.txt";
-        $contador = intval(trim(file_get_contents($archivo)));
- 
-        $archivo = fopen($archivo, "w");
-        fwrite($archivo, $contador+1 . PHP_EOL);
- 
-        $archivo = fopen($archivo, "r");
-        echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">'. fgets($archivo). '</div>';
-        fclose($archivo);
-        
-        ?>
 
         <header>
             
@@ -34,12 +21,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <label>
                 </label>
             </div>
-            
-            <!-- Contador de visitas -->
-            <center>
-                <img alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=5278">
-            </center>
-            <!-- Fin Contador de visitas -->
             
         </header>
         
@@ -76,20 +57,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div>
                 
                 <div class="art3">
-                    <label>Actualmente Rick y Morty "C-137"
-                        se encuentran en el barrio 
-                        Morty, gracias a que nuestros 
-                        protagosnistas unieron fuerzas 
-                        para escapar de la Ciudadela de 
-                        los Rick's, seguidamente de que Morty 
-                        Malvado saliera disparado 
-                        fuera de la curva finita 
-                        central, ¿la curva finita central
-                        todavia existe o ha sido destruida?; 
-                        esa es la duda que tiene todo fan 
-                        ahora mismo, tendremos que esperar al
-                        día 4 de Septiembre para averiguar
-                        lo que pasa.</label>
+                    <label>Rick y Morty ya ha vuelto y más canon que nunca.
+                           la popular serie de Adult Swim y de los creadores
+                           Dan Harmon y Justin Roiland en esta nueva temporada
+                           buscan encontrar un equilibrio de aventuras normales
+                           al estilo Rick y Morty Temporada 1 pero sin renunciar
+                           a el canon que ha conseguido a lo largo de estos años
+                           , volveremos a ver a personajes del pasado segun los 
+                           creadores y redactores de la serie, solo falta esperar
+                           a que saquen la temporada 6 completa para comprobarlo
+                           por completo aunque los capitulos ya disponibles ya 
+                           nos auguran una temporada genial</label>
                 </div>
             </article>
             
@@ -126,4 +104,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             </div>
         </footer>
     </body>
+    
+    <div class="contacto">
+
+        <a href="https://t.me/XDavidGarciaTorres">
+            <img src="Imagenes/Contacto y Donacion/telegram.png" width="35" height="35" alt="telegram"/>
+        </a>
+        <a href="https://instagram.com/gracovitz?igshid=YmMyMTA2M2Y=">
+            <img src="Imagenes/Contacto y Donacion/instagram.png" width="35" height="35" alt="instagram"/>
+        </a>
+        <a href="https://www.paypal.com/paypalme/xdgtweb">
+            <img src="Imagenes/Contacto y Donacion/paypal.png" width="35" height="35" alt="donacion"/>
+        </a>
+
+    </div>
+    
 </html>
