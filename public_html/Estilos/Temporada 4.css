@@ -10,11 +10,12 @@ html
 
 body
 {
-    background: url("../Videos/Index/fondomatrix.gif");
+    background: url("../Videos/Index/21.gif");
+    background-color: black;
 /*    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;*/
-    padding: 0px 50px 0px 50px;
+    background-size: cover;*/
+    background-position: center center;
+    padding: 0% 10% 0% 10%;
     cursor: url("../Imagenes/Index/cursordefecto.png"), default;
 }
 

@@ -10,11 +10,12 @@ html
 
 body
 {
-    background: url("../Videos/Index/fondomatrix.gif");
+    background: url("../Videos/Index/21.gif");
+    background-color: black;
 /*    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;*/
-    padding: 0px 50px 0px 50px;
+    background-size: cover;*/
+    background-position: center center;
+    padding: 0% 10% 0% 10%;
     cursor: url("../Imagenes/Index/cursordefecto.png"), default;
 }
 
@@ -45,6 +46,11 @@ body .menu > a
     -webkit-text-stroke: 0.7px #b4df24;
     font-family: ordenador;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default; /* no funciona */
+}
+
+body .anuncio
+{
+    
 }
 
 body > header
@@ -323,17 +329,14 @@ body main .main3 .cajamain3
 
 body main .main3 .cajamain4
 {
-/*    border: 1px #3AFF00 solid;*/
-    border: 1px red solid;
+    border: 1px #3AFF00 solid;
     border-radius: 7px;
     display: inline-grid;
     text-align: left;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     margin: 5px;
-    /*    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;*/
-    box-shadow: 0px 0px 10px red, inset 0px 0px 20px red;
-    /*    background-color: #071D00;*/
-    background-color: #330033;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    background-color: #071D00;
 }
 
 body main .main3 .cajamain5
@@ -588,7 +591,7 @@ body main .main3 .cajamain4 a > .previsualizacion4
     padding: 50px 120px 50px 120px;
     margin: 10px;
     border-radius: 7px;
-    background-image: url(../Imagenes/Temporada6/Previsualizaciones/PROVISIONAL.jpg);
+    background-image: url(../Imagenes/Temporada6/Previsualizaciones/previsualizacion4.jpg);
     background-size: 320px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -772,8 +775,7 @@ body main .main3 .cajamain4 a > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
-    background-color: red;
+    background-color: #3AFF00;
 }
 
 body main .main3 .cajamain5 a > label
@@ -916,8 +918,7 @@ body main .main3 .cajamain4 a .tituloEpisodio > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
-    background-color: red;
+    background-color: #3AFF00;
 }
 
 body main .main3 .cajamain5 a .tituloEpisodio > label
@@ -1421,7 +1422,7 @@ body footer .footer3 > label
         padding: 8px 60px 8px 60px;
         margin: 5px;
         border-radius: 7px;
-        background-image: url(../Imagenes/Temporada6/Previsualizaciones/PROVISIONAL.jpg);
+        background-image: url(../Imagenes/Temporada6/Previsualizaciones/previsualizacion4.jpg);
         background-size: 206px;
         background-position: center center;
         background-repeat: no-repeat;
@@ -1598,17 +1599,14 @@ body footer .footer3 > label
 
     body main .main3 .cajamain4
     {
-        /*    border: 1px #3AFF00 solid;*/
-        border: 1px red solid;
+        border: 1px #3AFF00 solid;
         border-radius: 7px;
         display: inline-grid;
         text-align: left;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         margin: 5px;
-        /*    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;*/
-        box-shadow: 0px 0px 10px red, inset 0px 0px 20px red;
-        /*    background-color: #071D00;*/
-        background-color: #330033;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+        background-color: #071D00;
     }
 
     body main .main3 .cajamain5
@@ -1761,8 +1759,7 @@ body footer .footer3 > label
         padding: 5px;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         font-family: ordenador;
-        /*    background-color: #3AFF00;*/
-        background-color: red;
+        background-color: #3AFF00;
     }
     
      body main .main3 .cajamain5 a > label
@@ -1905,8 +1902,7 @@ body footer .footer3 > label
         padding: 5px;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         font-family: ordenador;
-        /*    background-color: #3AFF00;*/
-        background-color: red;
+        background-color: #3AFF00;
     }
     
     body main .main3 .cajamain5 a .tituloEpisodio > label
