@@ -12,23 +12,35 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <script src="JavaScript/usuarioContraseña1.js"></script>
     </head>
     <body>
+        
+        <header>
+            
+            <div class="titulo">
+                <label>
+                </label>
+            </div>
+            
+        </header>
 
         <form name="form">
 
             <label>Entra en la pagina web de Rick y Morty</label>
+            <div id="fix"></div>
             <div id="introduccion">
                 <div id="inputs">
-                    <input type="text" id="nombre" name="nombre" placeholder="Usuario" maxlength="8" size="10" required>
-                    <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" maxlength="8" size="10" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Usuario" minlength="4" maxlength="8" size="10" required>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" minlength="4" maxlength="8" size="10" required>
                 </div>
                 <!--<label>(de 4 a 8 caracteres)</label>-->
                 <div id="padreBoton">
                     <button type="button" onclick="orden()">Aceptar</button>
                 </div>
             </div>
-            <label>¿No tienes usuario y contraseña?,</label>
-            <a href="https://wa.me/+34653578617">Pedir un usuario y contraseña</a>
-
+            <div id="ultimaCaja">
+                <label>¿No tienes usuario y contraseña?</label>
+                <label>↓↓↓↓↓↓↓↓↓↓↓↓↓↓</label>
+                <a href="https://wa.me/+34653578617">Pedir un usuario y contraseña</a>
+            </div>
         </form>
 
     </body>

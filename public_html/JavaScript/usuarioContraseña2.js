@@ -19,11 +19,11 @@ function orden()
     // Si el usuario GUARDADO NO es correcto (aunque no tenga nada)
     if ((esUsuarioCorrecto(usuarioGuardado) && esContraseñaCorrecta(contraseñaGuardada)))
     {
-        alert("si");
+
     } 
     else
     {
-        alert("no");
+
         window.location.href = "https://xdgtweb.github.io/Rick_Y_Morty/public_html/Acceso.html";
     }
 
@@ -75,7 +75,8 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
     var respuesta;
     
     if(pUsuarioIntrodCorrecto === "david" || 
-            pUsuarioIntrodCorrecto === "Sanz")
+            pUsuarioIntrodCorrecto === "Sanz" ||
+            pUsuarioIntrodCorrecto === "RVG26")
     {
         respuesta = true;
     }
@@ -91,10 +92,9 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
     var respuesta;
     
-    if(pContraseñaIntrodCorrecta === 3067 || 
-            pContraseñaIntrodCorrecta === 9999 ||
-            pContraseñaIntrodCorrecta === "3067" || 
-            pContraseñaIntrodCorrecta === "9999")
+    if(pContraseñaIntrodCorrecta === "3067" || 
+            pContraseñaIntrodCorrecta === "9999" ||
+            pContraseñaIntrodCorrecta === "Kintos26")
     {
         respuesta = true;
     }
@@ -105,7 +105,3 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
     
     return respuesta;
 }
-
-// Numero: +34 722 87 66 00
-// Usuario: Sanz
-// Contraseña: 9999

@@ -19,16 +19,158 @@ body
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
+}
+
+body > header
+{
+    background-color: transparent;
+}
+
+body header .titulo
+{
+    background-image: url("../Imagenes/Index/rickymortytitulo2.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 100px 0px 0px;
+    transition: 0.3s;
+    transform: rotate(0deg);
+
 }
 
 body form
 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 body form label:first-child
 {
-    color: red;
+    color: white;
+    font-family: ordenador;
+    font-size:20px;
 }
 
+body form #ultimaCaja
+{
+    display: inline-grid;
+}
+
+body form #ultimaCaja label
+{
+    color: greenyellow;
+    font-family: ordenador2;
+}
+
+body form #ultimaCaja a
+{
+    font-family: ordenador2;
+    font-size:20px;
+}
+
+body form #introduccion
+{
+    border-radius: 13px;
+    border: 3px yellow solid;
+    display: inline-grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    background-color: #1d1e00;
+    box-shadow: 0px 0px 10px #ffff00, inset 0px 0px 20px #ffff00;
+}
+
+body form #introduccion #inputs
+{
+    display: inline-grid;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+body form #introduccion #inputs input
+{
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 5px red solid;
+}
+
+body form #introduccion #inputs input:valid
+{
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 5px #009b06 solid;
+}
+
+body form #introduccion #inputs input:invalid
+{
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 5px #ff0000 solid;
+}
+
+body form #introduccion #padreBoton button
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #d200b4;
+    color: white;
+    font-family: ordenador;
+}
+
+body form #introduccion #padreBoton button:active
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #8500aa;
+    color: white;
+    font-family: ordenador;
+}
+
+
+@media only screen and (max-width: 493.09px)
+{
+    body
+    {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+
+@font-face 
+{
+    font-family: ordenador;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../TiposDeLetra/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+
+@font-face 
+{
+    font-family: ordenador2;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../TiposDeLetra/ibm-plex-mono/IBMPlexMono-Medium.ttf);
+}
