@@ -97,7 +97,8 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
 {
     var respuesta;
     
-    if(pUsuarioIntrodCorrecto === "david")
+    if(pUsuarioIntrodCorrecto === "David" || 
+            pUsuarioIntrodCorrecto === "Sanz")
     {
         respuesta = true;
     }
@@ -113,7 +114,8 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
     var respuesta;
     
-    if(pContraseñaIntrodCorrecta === "3067" || pContraseñaIntrodCorrecta === 3067)
+    if(pContraseñaIntrodCorrecta === "3067" || 
+            pContraseñaIntrodCorrecta === "9999")
     {
         respuesta = true;
     }
@@ -126,3 +128,6 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 }
 
 
+// Numero: +34 722 87 66 00
+// Usuario: Sanz
+// Contraseña: 9999
