@@ -55,14 +55,14 @@ function orden()
 
 function preguntarUsuario()
 {
-    var usuario = document.getElementById("nombre").value;
+    var usuario = toString(document.getElementById("nombre").value);
     
     return usuario;
 }
 
 function preguntarContraseña()
 {
-    var contraseña = document.getElementById("contraseña").value;
+    var contraseña = parseInt(document.getElementById("contraseña").value);
     
     return contraseña;
 }
@@ -114,8 +114,8 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
     var respuesta;
     
-    if(pContraseñaIntrodCorrecta === "3067" || 
-            pContraseñaIntrodCorrecta === "9999")
+    if(pContraseñaIntrodCorrecta === 3067 || 
+            pContraseñaIntrodCorrecta === 9999)
     {
         respuesta = true;
     }
