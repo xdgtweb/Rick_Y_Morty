@@ -114,8 +114,8 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
     var respuesta;
     
-    if(pContraseñaIntrodCorrecta === "3067" || 
-            pContraseñaIntrodCorrecta === "9999")
+    if(pContraseñaIntrodCorrecta === 3067 || 
+            pContraseñaIntrodCorrecta === 9999)
     {
         respuesta = true;
     }
