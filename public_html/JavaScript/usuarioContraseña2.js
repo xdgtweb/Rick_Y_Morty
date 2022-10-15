@@ -17,10 +17,14 @@ function orden()
     // Obtenemos las variables guardadas en items de localStorage
 
     // Si el usuario GUARDADO NO es correcto (aunque no tenga nada)
-    if (!(esUsuarioCorrecto(usuarioGuardado) && esContraseñaCorrecta(contraseñaGuardada)))
+    if ((esUsuarioCorrecto(usuarioGuardado) && esContraseñaCorrecta(contraseñaGuardada)))
+    {
+        
+    } 
+    else
     {
         window.location.href = "https://xdgtweb.github.io/Rick_Y_Morty/public_html/Acceso.html";
-    } 
+    }
 
 }
 
