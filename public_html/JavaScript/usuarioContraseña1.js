@@ -97,7 +97,7 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
 {
     var respuesta;
     
-    if(pUsuarioIntrodCorrecto === "David" || 
+    if(pUsuarioIntrodCorrecto === "david" || 
             pUsuarioIntrodCorrecto === "Sanz")
     {
         respuesta = true;
