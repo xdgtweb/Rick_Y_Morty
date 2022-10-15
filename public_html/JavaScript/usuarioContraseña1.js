@@ -35,7 +35,15 @@ function orden()
                 guardarUsuarioContraseña(usuarioPreguntado, contraseñaPreguntada);
                 window.location.href = "https://xdgtweb.github.io/Rick_Y_Morty/public_html/Index.html";
             } 
+            else
+            {
+                window.location.href = "https://xdgtweb.github.io/Rick_Y_Morty/public_html/Acceso.html";
+            }
         } 
+        else
+        {
+            window.location.href = "https://xdgtweb.github.io/Rick_Y_Morty/public_html/Acceso.html";
+        }
     }
 
 //    usuarioGuardado = obtenerUsuario();
