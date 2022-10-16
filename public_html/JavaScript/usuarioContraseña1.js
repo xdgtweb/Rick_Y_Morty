@@ -100,11 +100,7 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
     if(pUsuarioIntrodCorrecto === "david" || 
             pUsuarioIntrodCorrecto === "Sanz" ||
             pUsuarioIntrodCorrecto === "RVG26" ||
-<<<<<<< HEAD
             pUsuarioIntrodCorrecto === "Emma_bp")
-=======
-            pUsuarioIntrodCorrecta === "Emma_bp")
->>>>>>> d45a14970b3f69eb0899e8e1594a11e278d554c1
     {
         respuesta = true;
     }
