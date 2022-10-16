@@ -76,8 +76,13 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
     
     if(pUsuarioIntrodCorrecto === "david" || 
             pUsuarioIntrodCorrecto === "Sanz" ||
+<<<<<<< HEAD
             pUsuarioIntrodCorrecto === "RVG26" ||
             pUsuarioIntrodCorrecto === "Emma_bp")
+=======
+            pUsuarioIntrodCorrecto === "RVG26"
+            pUsuarioIntrodCorrecta === "Emma_bp")
+>>>>>>> d45a14970b3f69eb0899e8e1594a11e278d554c1
     {
         respuesta = true;
     }
@@ -95,7 +100,11 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
     
     if(pContraseñaIntrodCorrecta === "3067" || 
             pContraseñaIntrodCorrecta === "9999" ||
+<<<<<<< HEAD
             pContraseñaIntrodCorrecta === "Kintos26" ||
+=======
+            pContraseñaIntrodCorrecta === "Kintos26"
+>>>>>>> d45a14970b3f69eb0899e8e1594a11e278d554c1
             pContraseñaIntrodCorrecta === "Rick0601")
     {
         respuesta = true;
