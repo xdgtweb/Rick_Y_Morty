@@ -32,14 +32,14 @@ function orden()
 
 function preguntarUsuario()
 {
-    var usuario = document.getElementById("nombre").value.trim;
+    var usuario = document.getElementById("nombre").value;
     
     return usuario;
 }
 
 function preguntarContraseña()
 {
-    var contraseña = document.getElementById("contraseña").value.trim;
+    var contraseña = document.getElementById("contraseña").value;
     
     return contraseña;
 }
@@ -77,7 +77,8 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
     if(pUsuarioIntrodCorrecto === "david" || 
             pUsuarioIntrodCorrecto === "Sanz" ||
             pUsuarioIntrodCorrecto === "RVG26" ||
-            pUsuarioIntrodCorrecto === "Emma_bp")
+            pUsuarioIntrodCorrecto === "Emma_bp" ||
+            pUsuarioIntrodCorrecto === "Ur3k")
     {
         respuesta = true;
     }
@@ -96,7 +97,8 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
     if(pContraseñaIntrodCorrecta === "3067" || 
             pContraseñaIntrodCorrecta === "9999" ||
             pContraseñaIntrodCorrecta === "Kintos26" ||
-            pContraseñaIntrodCorrecta === "Rick0601")
+            pContraseñaIntrodCorrecta === "Rick0601" ||
+            pContraseñaIntrodCorrecta === "2014chad")
     {
         respuesta = true;
     }
