@@ -99,7 +99,8 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
     
     if(pUsuarioIntrodCorrecto === "david" || 
             pUsuarioIntrodCorrecto === "Sanz" ||
-            pUsuarioIntrodCorrecto === "RVG26")
+            pUsuarioIntrodCorrecto === "RVG26" ||
+            pUsuarioIntrodCorrecto === "Emma_bp")
     {
         respuesta = true;
     }
@@ -117,7 +118,8 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
     
     if(pContraseñaIntrodCorrecta === "3067" || 
             pContraseñaIntrodCorrecta === "9999" ||
-            pContraseñaIntrodCorrecta === "Kintos26")
+            pContraseñaIntrodCorrecta === "Kintos26" ||
+            pContraseñaIntrodCorrecta === "Rick0601")
     {
         respuesta = true;
     }
