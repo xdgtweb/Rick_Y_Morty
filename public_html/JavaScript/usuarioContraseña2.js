@@ -83,7 +83,9 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
             pUsuarioIntrodCorrecto === "moob"||
             pUsuarioIntrodCorrecto === "YisusGod" ||
             pUsuarioIntrodCorrecto === "Uzziel_Jr" ||
-            pUsuarioIntrodCorrecto === "MICKY23")
+            pUsuarioIntrodCorrecto === "MICKY23" ||
+            pUsuarioIntrodCorrecto === "PabloXD" ||
+            pUsuarioIntrodCorrecto === "Culebra")
     {
         respuesta = true;
     }
@@ -108,7 +110,9 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
             pContraseñaIntrodCorrecta === "moobTTTT" ||
             pContraseñaIntrodCorrecta === "1234qwer" ||
             pContraseñaIntrodCorrecta === "Yonko123" ||
-            pContraseñaIntrodCorrecta === "Jesusxdf")
+            pContraseñaIntrodCorrecta === "Jesusxdf" ||
+            pContraseñaIntrodCorrecta === "126uru" ||
+            pContraseñaIntrodCorrecta === "cis3467")
     {
         respuesta = true;
     }
