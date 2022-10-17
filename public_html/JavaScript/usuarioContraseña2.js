@@ -70,6 +70,8 @@ function guardarUsuarioContraseña(pUsuario, pContraseña)
     
 }
 
+document.write(escape(
+
 function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
 {
     var respuesta;
@@ -82,7 +84,7 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
             pUsuarioIntrodCorrecto === "Kensio"||
             pUsuarioIntrodCorrecto === "moob"||
             pUsuarioIntrodCorrecto === "YisusGod" ||
-            pUsuarioIntrodCorrecto === "Uzziel_Jr" ||
+            pUsuarioIntrodCorrecto === "UzzielJr" ||
             pUsuarioIntrodCorrecto === "MICKY23" ||
             pUsuarioIntrodCorrecto === "PabloXD" ||
             pUsuarioIntrodCorrecto === "Culebra" ||
@@ -98,6 +100,9 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
     
     return respuesta;
 }
+
+));
+document.write(escape(
 
 function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
@@ -127,3 +132,5 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
     
     return respuesta;
 }
+
+));
