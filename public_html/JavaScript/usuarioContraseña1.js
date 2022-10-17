@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
  */
 
-
 // varibles a usar
 var usuarioPreguntado;
 var contraseñaPreguntada;
@@ -94,8 +93,6 @@ function guardarUsuarioContraseña(pUsuario, pContraseña)
     
 }
 
-document.write(escape(
-
 function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
 {
     var respuesta;
@@ -108,7 +105,7 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
             pUsuarioIntrodCorrecto === "Kensio"||
             pUsuarioIntrodCorrecto === "moob" ||
             pUsuarioIntrodCorrecto === "YisusGod" ||
-            pUsuarioIntrodCorrecto === "UzzielJr" ||
+            pUsuarioIntrodCorrecto === "Uzziel_Jr" ||
             pUsuarioIntrodCorrecto === "MICKY23" ||
             pUsuarioIntrodCorrecto === "PabloXD" ||
             pUsuarioIntrodCorrecto === "Culebra" ||
@@ -124,9 +121,6 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
     
     return respuesta;
 }
-
-));
-document.write(escape(
 
 function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
@@ -156,5 +150,3 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
     
     return respuesta;
 }
-
-));
