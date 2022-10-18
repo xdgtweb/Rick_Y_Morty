@@ -9,8 +9,6 @@ var contraseñaPreguntada;
 var usuarioGuardado = obtenerUsuario();
 var contraseñaGuardada = obtenerContraseña();
 
-document.oncontextmenu = function(){return false;}
-
 function orden()
 {
 
