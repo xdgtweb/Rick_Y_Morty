@@ -9,7 +9,7 @@ var contraseñaPreguntada;
 var usuarioGuardado = obtenerUsuario();
 var contraseñaGuardada = obtenerContraseña();
 
-//orden();
+document.oncontextmenu = function(){return false;}
 
 function orden()
 {

@@ -7,6 +7,7 @@
 var usuarioGuardado = obtenerUsuario();
 var contraseñaGuardada = obtenerContraseña();
 
+document.oncontextmenu = function(){return false;}
 orden();
 
 function orden()
@@ -88,7 +89,6 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
             pUsuarioIntrodCorrecto === "Culebra" ||
             pUsuarioIntrodCorrecto === "javi123" ||
             pUsuarioIntrodCorrecto === "Guti2005" ||
-            pUsuarioIntrodCorrecto === "Mr_P1zz4" ||
             pUsuarioIntrodCorrecto === "Mr_P1zz4")
     {
         respuesta = true;
