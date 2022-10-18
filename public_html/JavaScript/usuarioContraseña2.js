@@ -7,6 +7,8 @@
 var usuarioGuardado = obtenerUsuario();
 var contraseñaGuardada = obtenerContraseña();
 
+document.oncontextmenu = function(){return false;}
+
 orden();
 
 function orden()
@@ -32,14 +34,14 @@ function orden()
 
 function preguntarUsuario()
 {
-    var usuario = document.getElementById("nombre").value;
+    var usuario = document.getElementById("nombre").trim;
     
     return usuario;
 }
 
 function preguntarContraseña()
 {
-    var contraseña = document.getElementById("contraseña").value;
+    var contraseña = document.getElementById("contraseña").trim;
     
     return contraseña;
 }
@@ -74,7 +76,7 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
 {
     var respuesta;
     
-    if(pUsuarioIntrodCorrecto === "david" || 
+    if(pUsuarioIntrodCorrecto === "Fawful" || 
             pUsuarioIntrodCorrecto === "Sanz" ||
             pUsuarioIntrodCorrecto === "RVG26" ||
             pUsuarioIntrodCorrecto === "Emma_bp" ||
