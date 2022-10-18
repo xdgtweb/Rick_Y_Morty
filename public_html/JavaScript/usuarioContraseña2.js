@@ -34,14 +34,14 @@ function orden()
 
 function preguntarUsuario()
 {
-    var usuario = document.getElementById("nombre").value.trim;
+    var usuario = document.getElementById("nombre").value;
     
     return usuario;
 }
 
 function preguntarContraseña()
 {
-    var contraseña = document.getElementById("contraseña").value.trim;
+    var contraseña = document.getElementById("contraseña").value;
     
     return contraseña;
 }
