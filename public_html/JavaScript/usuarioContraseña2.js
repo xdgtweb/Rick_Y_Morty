@@ -97,7 +97,8 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
             pUsuarioIntrodCorrecto === "mingui" ||
             pUsuarioIntrodCorrecto === "kratos" ||
             pUsuarioIntrodCorrecto === "Henki" ||
-            pContraseñaIntrodCorrecta === "JJOB1234")
+            pUsuarioIntrodCorrecto === "JJOB1234" ||
+            pUsuarioIntrodCorrecto === "Scott")
     {
         respuesta = true;
     }
@@ -132,7 +133,8 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
             pContraseñaIntrodCorrecta === "8459" ||
             pContraseñaIntrodCorrecta === "reyy123" ||
             pContraseñaIntrodCorrecta === "Mingui5" ||
-            pContraseñaIntrodCorrecta === "rick123")
+            pContraseñaIntrodCorrecta === "rick123" ||
+            pContraseñaIntrodCorrecta === "Samael0")
     {
         respuesta = true;
     }
