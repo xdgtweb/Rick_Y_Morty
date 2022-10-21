@@ -95,7 +95,9 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
             pUsuarioIntrodCorrecto === "Elpablo" ||
             pUsuarioIntrodCorrecto === "anonimo6" ||
             pUsuarioIntrodCorrecto === "mingui" ||
-            pUsuarioIntrodCorrecto === "kratos")
+            pUsuarioIntrodCorrecto === "kratos" ||
+            pUsuarioIntrodCorrecto === "Henki" ||
+            pContraseñaIntrodCorrecta === "JJOB1234")
     {
         respuesta = true;
     }
