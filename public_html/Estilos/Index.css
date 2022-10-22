@@ -25,10 +25,10 @@ html
 
 body
 {
-    background: url("../Videos/Index/21.gif");
+    background: url("../Videos/Index/1.gif");
     background-color: black;
-/*    background-repeat: no-repeat;
-    background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
     padding: 0% 10% 0% 10%;
     cursor: url("../Imagenes/Index/cursordefecto.png"), default;
@@ -83,12 +83,26 @@ body .navpadre nav
     margin-bottom: 10px;
 }
 
-body .navpadre nav > a
+body .navpadre nav a
 {
     text-decoration: none;
+    font-family: ordenador;
+    font-size: 16px;
+    color: #01b5cc;
+    -webkit-text-stroke: 0.7px #b4df24;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
 }
 
-body .navpadre nav a .caja1 > .caja2
+body .navpadre nav a .caja1_1, .caja1_2, .caja1_3
+{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body .navpadre nav a .caja1_1 .caja2_1
 {
     padding: 20px 20px 20px 20px;
     background-image: url(../Imagenes/Index/pistoladeportales.png);
@@ -96,59 +110,74 @@ body .navpadre nav a .caja1 > .caja2
     background-position: center center;
     background-repeat: no-repeat;
     transition: 0.3s;
-    display: inline-block;
-    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
-    border-bottom: 2px transparent solid;
 }
 
-body .navpadre nav a .caja1 > .caja2:hover
+body .navpadre nav a:hover .caja1_1 .caja2_1
 {
     padding: 20px 20px 20px 20px;
-    background-image: url("../Imagenes/Index/portalinerdimensional2.gif");
+    background-image: url(../Imagenes/Index/portalinerdimensional2.gif);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
 
-body .navpadre nav a > .caja1
+body .navpadre nav a .caja1_2 .caja2_2
 {
-    text-align: center;
-    display: inline-grid;
-    margin-left: 7.5px;
-    margin-right: 7.5px;
-    margin-bottom: 7.5px;
-/*    border: #3AFF00 1px solid;*/
+    padding: 20px 55px 20px 20px;
+    background-image: url(../Imagenes/Index/pistoladeportales.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
-body .navpadre nav a .caja1 > label
+body .navpadre nav a:hover .caja1_2 .caja2_2
 {
-    text-align: center;
-    display: block;
-    -webkit-text-stroke: 0.7px #b4df24;
-    color: #01b5cc;
-    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
-    font-family: ordenador;
+    padding: 20px 55px 20px 20px;
+    background-image: url(../Imagenes/Index/portalinerdimensional2.gif);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
-body .navpadre nav a .caja1 .caja2 > label 
+body .navpadre nav a .caja1_3 .caja2_3
 {
-    text-decoration: none;
+    padding: 20px 55px 20px 20px;
+    background-image: url(../Imagenes/Index/pistoladeportales.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+body .navpadre nav a:hover .caja1_3 .caja2_3
+{
+    padding: 20px 55px 20px 20px;
+    background-image: url(../Imagenes/Index/portalinerdimensional2.gif);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
 body article
 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 10px;
     max-width: 500px;
     min-width: 200px;
     border-radius: 7px;
+    background: url("../Videos/Index/23f.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     background-color: #071D00;
     border: 1px solid #3AFF00;
     box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
-    
 }
 
 body article .art2 > label
@@ -181,7 +210,6 @@ body article .art3 > label
 body main .fotos > .foto1
 {
     margin-bottom: 20px;
-    margin-top: 20px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 7px;
@@ -194,6 +222,10 @@ body main .fotos > .foto1
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;*/
+    background: url("../Videos/Index/23f.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     background-color: #004443;
     
     border: 1px #96d6d5 solid;
@@ -204,8 +236,8 @@ body main .fotos > .foto1
 
 body main .fotos > .foto2
 {
-    margin-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 7px;
@@ -218,6 +250,10 @@ body main .fotos > .foto2
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;*/
+    background: url("../Videos/Index/23f.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     background-color: #484600;
     
     border: 1px #FDF96A solid;
@@ -380,8 +416,11 @@ body main
     border-radius: 7px;
     background-color: transparent;
     color: #01b5cc;
-    background-color: #1c001c;
-    
+    background: url("../Videos/Index/23f.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #290031;
     box-shadow: 0px 0px 10px #ff00cc, inset 0px 0px 20px #ff00cc;
     margin-top: 10px;
 }
@@ -397,7 +436,11 @@ body footer
 {
     border: #ffff00 solid 1px;
     border-radius: 7px;
-    background-color: #161600;
+    background: url("../Videos/Index/23f.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #292a00;
     text-align: center;
     
     box-shadow: 0px 0px 10px #ffff00, inset 0px 0px 20px #ffff00;
@@ -521,39 +564,22 @@ body footer .footer3 > label
         transform: rotate(360deg);
     }
 
-    
-    body .navpadre nav a .caja1 > .caja2
+    body .navpadre nav a
     {
-        padding: 18px 18px 18px 18px;
-        background-image: url(../Imagenes/Index/pistoladeportales.png);
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        transition: 0.3s;
-        display: inline-block;
-        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
-        border-bottom: 2px transparent solid;
+        text-decoration: none;
+        font-family: ordenador;
+        font-size: 13px;
+        color: #01b5cc;
+        -webkit-text-stroke: 0.7px #b4df24;
     }
 
-    body .navpadre nav a .caja1 > .caja2:hover
+    body .navpadre nav a .caja1_1, .caja1_2, .caja1_3
     {
-        padding: 18px 18px 18px 18px;
-        background-image: url("../Imagenes/Index/portalinerdimensional2.gif");
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        transition: 0.3s;
-    }
-    
-    body .navpadre nav a .caja1 > label
-    {
-        text-align: center;
-        font-size: 13px;
-        display: block;
-        -webkit-text-stroke: 0.7px #b4df24;
-        color: #01b5cc;
-        cursor: url("../Imagenes/Index/cursorhover.ico"), default;
-        font-family: ordenador;
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     body .nav2 .caja4

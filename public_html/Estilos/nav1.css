@@ -1,0 +1,191 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    cursor: url("../Imagenes/Index/cursordefecto.png"), default;
+}
+
+body
+{
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 545px;
+    margin-top: 50px;
+    background-color: black;
+    background: url("../Videos/Index/20.gif");
+/*    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center center;
+}
+
+body main
+{
+    display: grid;
+    text-align: center;
+}
+
+body main .cajamain0
+{
+    display: inline-block;
+    border: 3px greenyellow solid;
+    box-shadow: 0px 0px 10px greenyellow, inset 0px 0px 20px greenyellow;
+    background-color: #021d00;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body main .cajamain0 .caja1
+{
+    transition: 0.3s;
+    border: yellow 3px solid;
+    box-shadow: 0px 0px 5px yellow, inset 0px 0px 5px yellow;
+    background-color: #191900;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 7px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+    font-size: 0;
+}
+
+body main .cajamain0 .caja1:hover
+{
+    transition: 0.3s;
+    border: yellow 3px solid;
+    box-shadow: 0px 0px 100px yellow, inset 0px 0px 100px yellow;
+    background-color: #191900;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 7px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+body main .cajamain0 .caja1 img
+{
+    border-radius: 7px 7px 0px 0px;
+}
+
+body main .cajamain0 a
+{
+    text-decoration: none;
+    font-family: ordenador;
+    -webkit-text-stroke: 0.7px #b4df24;
+    color: #01b5cc;
+}
+
+body main .cajamain0 .caja1 label
+{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+
+body main .menu
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 3px #d700ff solid;
+    box-shadow: 0px 0px 20px #d700ff, inset 0px 0px 10px #d700ff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3b0046;
+}
+
+body main .menu:hover
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 3px #d700ff solid;
+    box-shadow: 0px 0px 20px #d700ff, inset 0px 0px 10px #d700ff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3b0046;
+}
+
+body main .menu a
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: ordenador;
+    -webkit-text-stroke: 0.7px #b4df24;
+    color: #01b5cc;
+}
+
+@media only screen and (max-width: 600px)
+{
+    /* movil normal */
+
+    body
+    {
+        transition: 0.3s;
+        margin-left: auto;
+        margin-right: auto;
+        width: 370px;
+        background-color: black;
+        background: url("../Videos/Index/20.gif");
+        /*    background-repeat: no-repeat;*/
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px)
+{
+    /* movil normal */
+
+    body
+    {
+        transition: 0.3s;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        background-color: black;
+        background: url("../Videos/Index/20.gif");
+        /*    background-repeat: no-repeat;*/
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    body main .cajamain0 .caja1 img
+    {
+        width: 90px;
+        height: 125px;
+    }
+    
+    body main .cajamain0 .caja1 label
+    {
+        display: block;
+        padding: 5px;
+        font-size: 11px;
+    }
+
+    body main .menu a
+    {
+        font-size: 16px;
+        text-decoration: none;
+        font-family: ordenador;
+        -webkit-text-stroke: 0.7px #b4df24;
+        color: #01b5cc;
+    }
+
+
+}
+
+
+@font-face 
+{
+    font-family: ordenador;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../TiposDeLetra/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
