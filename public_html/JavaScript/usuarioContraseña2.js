@@ -137,6 +137,7 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
             pContraseñaIntrodCorrecta === "reyy123" ||
             pContraseñaIntrodCorrecta === "Mingui5" ||
             pContraseñaIntrodCorrecta === "rick123" ||
+            pContraseñaIntrodCorrecta === "JJOB1234" ||
             pContraseñaIntrodCorrecta === "Samael0" ||
             pContraseñaIntrodCorrecta === "Wazaaaaa" ||
             pContraseñaIntrodCorrecta === "M33SEeks" ||
