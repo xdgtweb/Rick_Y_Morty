@@ -48,9 +48,16 @@ body .menu > a
     cursor: url("../Imagenes/Index/cursorhover.ico"), default; /* no funciona */
 }
 
-body .anuncio
+body #comentarios
 {
-    
+    border: 1px #ff6600 solid;
+    border-radius: 7px;
+    background-color: transparent;
+    background-color: #ff6600;
+    box-shadow: 0px 0px 10px #ff6600, inset 0px 0px 20px #ff6600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 body > header
