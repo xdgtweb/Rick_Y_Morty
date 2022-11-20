@@ -55,14 +55,14 @@ function orden()
 
 function preguntarUsuario()
 {
-    var usuario = document.getElementById("nombre").value;
+    var usuario = trim(toString(document.getElementById("nombre")));
     
     return usuario;
 }
 
 function preguntarContraseña()
 {
-    var contraseña = document.getElementById("contraseña").value;
+    var contraseña = trim(toString(document.getElementById("contraseña")));
     
     return contraseña;
 }
@@ -97,32 +97,7 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
 {
     var respuesta;
     
-    if(pUsuarioIntrodCorrecto === "Fawful" || 
-            pUsuarioIntrodCorrecto === "Sanz" ||
-            pUsuarioIntrodCorrecto === "RVG26" ||
-            pUsuarioIntrodCorrecto === "Emma_bp" ||
-            pUsuarioIntrodCorrecto === "Ur3k" ||
-            pUsuarioIntrodCorrecto === "Kensio"||
-            pUsuarioIntrodCorrecto === "moob" ||
-            pUsuarioIntrodCorrecto === "YisusGod" ||
-            pUsuarioIntrodCorrecto === "UzzielJr" ||
-            pUsuarioIntrodCorrecto === "MICKY23" ||
-            pUsuarioIntrodCorrecto === "PabloXD" ||
-            pUsuarioIntrodCorrecto === "Culebra" ||
-            pUsuarioIntrodCorrecto === "javi123" ||
-            pUsuarioIntrodCorrecto === "Guti2005" ||
-            pUsuarioIntrodCorrecto === "Mr_P1zz4" ||
-            pUsuarioIntrodCorrecto === "Pool" ||
-            pUsuarioIntrodCorrecto === "Elpablo" ||
-            pUsuarioIntrodCorrecto === "anonimo6" ||
-            pUsuarioIntrodCorrecto === "mingui" ||
-            pUsuarioIntrodCorrecto === "kratos" ||
-            pUsuarioIntrodCorrecto === "Henki" ||
-            pUsuarioIntrodCorrecto === "Scott" ||
-            pUsuarioIntrodCorrecto === "Kaix" ||
-            pUsuarioIntrodCorrecto === "Leodomm7" ||
-            pUsuarioIntrodCorrecto === "popo" ||
-            pUsuarioIntrodCorrecto === "lau509")
+    if(pUsuarioIntrodCorrecto === "Rickmaniacos")
     {
         respuesta = true;
     }
@@ -138,32 +113,7 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
     var respuesta;
     
-    if(pContraseñaIntrodCorrecta === "3067" || 
-            pContraseñaIntrodCorrecta === "9999" ||
-            pContraseñaIntrodCorrecta === "Kintos26" ||
-            pContraseñaIntrodCorrecta === "Rick0601" ||
-            pContraseñaIntrodCorrecta === "2014chad" ||
-            pContraseñaIntrodCorrecta === "Dongo" ||
-            pContraseñaIntrodCorrecta === "moobTTTT" ||
-            pContraseñaIntrodCorrecta === "1234qwer" ||
-            pContraseñaIntrodCorrecta === "Yonko123" ||
-            pContraseñaIntrodCorrecta === "Jesusxdf" ||
-            pContraseñaIntrodCorrecta === "126uru" ||
-            pContraseñaIntrodCorrecta === "cis3467" ||
-            pContraseñaIntrodCorrecta === "pro123" ||
-            pContraseñaIntrodCorrecta === "Rickmt05" ||
-            pContraseñaIntrodCorrecta === "N4171LIU" ||
-            pContraseñaIntrodCorrecta === "Cafetoon" ||
-            pContraseñaIntrodCorrecta === "8459" ||
-            pContraseñaIntrodCorrecta === "reyy123" ||
-            pContraseñaIntrodCorrecta === "Mingui5" ||
-            pContraseñaIntrodCorrecta === "rick123" ||
-            pContraseñaIntrodCorrecta === "JJOB1234" ||
-            pContraseñaIntrodCorrecta === "Samael0" ||
-            pContraseñaIntrodCorrecta === "Wazaaaaa" ||
-            pContraseñaIntrodCorrecta === "M33SEeks" ||
-            pContraseñaIntrodCorrecta === "Floridor" ||
-            pContraseñaIntrodCorrecta === "dalmacio")
+    if(pContraseñaIntrodCorrecta === "C-137")
     {
         respuesta = true;
     }
