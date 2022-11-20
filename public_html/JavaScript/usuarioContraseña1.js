@@ -55,14 +55,14 @@ function orden()
 
 function preguntarUsuario()
 {
-    var usuario = toString(document.getElementById("nombre").value);
+    var usuario = document.getElementById("nombre").value;
     
     return usuario;
 }
 
 function preguntarContraseña()
 {
-    var contraseña = toString(document.getElementById("contraseña").value);
+    var contraseña = document.getElementById("contraseña").value;
     
     return contraseña;
 }
