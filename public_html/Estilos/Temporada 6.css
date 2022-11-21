@@ -376,17 +376,15 @@ body main .main3 .cajamain6
 
 body main .main3 .cajamain7
 {
-/*    border: 1px #3AFF00 solid;*/
+    border: 1px #3AFF00 solid;
     border: 1px red solid;
     border-radius: 7px;
     display: inline-grid;
     text-align: left;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     margin: 5px;
-    /*    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;*/
-    box-shadow: 0px 0px 10px red, inset 0px 0px 20px red;
-    /*    background-color: #071D00;*/
-    background-color: #330033;
+    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+    background-color: #071D00;
 }
 
 body main .main3 .cajamain8
@@ -650,7 +648,7 @@ body main .main3 .cajamain7 a > .previsualizacion7
     padding: 50px 120px 50px 120px;
     margin: 10px;
     border-radius: 7px;
-    background-image: url(../Imagenes/Temporada6/Previsualizaciones/PROVISIONAL2.jpg);
+    background-image: url(../Imagenes/Temporada6/Previsualizaciones/previsualizacion7.jpg);
     background-size: 320px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -816,8 +814,7 @@ body main .main3 .cajamain7 a > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
-    background-color: red;
+    background-color: #3AFF00;
 }
 
 body main .main3 .cajamain8 a > label
@@ -960,7 +957,7 @@ body main .main3 .cajamain7 a .tituloEpisodio > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
+    background-color: #3AFF00;
     background-color: red;
 }
 
@@ -1632,9 +1629,9 @@ body footer .footer3 > label
         text-align: left;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         margin: 5px;
-        /*    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;*/
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
         box-shadow: 0px 0px 10px red, inset 0px 0px 20px red;
-        /*    background-color: #071D00;*/
+        background-color: #071D00;
         background-color: #330033;
     }
 
@@ -1779,7 +1776,7 @@ body footer .footer3 > label
         padding: 5px;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         font-family: ordenador;
-        /*    background-color: #3AFF00;*/
+        background-color: #3AFF00;
         background-color: red;
     }
     
@@ -1923,7 +1920,7 @@ body footer .footer3 > label
         padding: 5px;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         font-family: ordenador;
-        /*    background-color: #3AFF00;*/
+        background-color: #3AFF00;
         background-color: red;
     }
     
