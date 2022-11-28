@@ -1919,8 +1919,8 @@ background-color: #3AFF00;
         padding: 5px;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         font-family: ordenador;
-        /*    background-color: #3AFF00;*/
-        background-color: red;
+        background-color: #3AFF00;
+        
     }
     
     body main .main3 .cajamain9 a .tituloEpisodio > label
