@@ -315,6 +315,7 @@ body main .articulopadre .articulopadre1 > .articulo1
 body main .articulopadre .articulopadre1 > .articulo1_foto1
 {
 /*    border: #ffff00 2px solid;*/
+    margin-top: 10px;
     display: inline-block;
     font-size: 0;
 }
