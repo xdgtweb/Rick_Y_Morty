@@ -400,17 +400,14 @@ box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
 
 body main .main3 .cajamain9
 {
-/*    border: 1px #3AFF00 solid;*/
-    border: 1px red solid;
+border: 1px #3AFF00 solid;
     border-radius: 7px;
     display: inline-grid;
     text-align: left;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     margin: 5px;
-    /*    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;*/
-    box-shadow: 0px 0px 10px red, inset 0px 0px 20px red;
-    /*    background-color: #071D00;*/
-    background-color: #330033;
+        box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+        background-color: #071D00;
 }
 
 body main .main3 .cajamain10
@@ -680,7 +677,7 @@ body main .main3 .cajamain9 a > .previsualizacion9
     padding: 50px 120px 50px 120px;
     margin: 10px;
     border-radius: 7px;
-    background-image: url(../Imagenes/Temporada6/Previsualizaciones/PROVISIONAL.jpg);
+    background-image: url(../Imagenes/Temporada6/Previsualizaciones/previsualizacion9.jpg);
     background-size: 320px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -834,8 +831,7 @@ body main .main3 .cajamain9 a > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
-    background-color: red;
+        background-color: #3AFF00;
 }
 
 body main .main3 .cajamain10 a > label
@@ -978,8 +974,7 @@ body main .main3 .cajamain9 a .tituloEpisodio > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
-    background-color: red;
+        background-color: #3AFF00;
 }
 
 body main .main3 .cajamain10 a .tituloEpisodio > label
@@ -1640,17 +1635,16 @@ border: 1px #3AFF00 solid;
 
     body main .main3 .cajamain9
     {
-        /*    border: 1px #3AFF00 solid;*/
-        border: 1px red solid;
+           border: 1px #3AFF00 solid;
         border-radius: 7px;
         display: inline-grid;
         text-align: left;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         margin: 5px;
-        /*    box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;*/
-        box-shadow: 0px 0px 10px red, inset 0px 0px 20px red;
-        /*    background-color: #071D00;*/
-        background-color: #330033;
+            box-shadow: 0px 0px 10px #3AFF00, inset 0px 0px 20px #3AFF00;
+
+           background-color: #071D00;
+
     }
 
     body main .main3 .cajamain10
@@ -1788,8 +1782,7 @@ background-color: #3AFF00;
         padding: 5px;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         font-family: ordenador;
-        /*    background-color: #3AFF00;*/
-        background-color: red;
+           background-color: #3AFF00;
     }
     
      body main .main3 .cajamain10 a > label
@@ -1933,8 +1926,7 @@ background-color: #3AFF00;
         padding: 5px;
         cursor: url("../Imagenes/Index/cursorhover.ico"), default;
         font-family: ordenador;
-        /*    background-color: #3AFF00;*/
-        background-color: red;
+            background-color: #3AFF00;
     }
     
     body main .main3 .cajamain10 a .tituloEpisodio > label
