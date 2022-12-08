@@ -18,6 +18,11 @@ html
     z-index:9;
 }
 
+#disqus_thread
+{
+    padding: 5px;
+}
+
 .anuncio iframe
 {
     width: 400px;
