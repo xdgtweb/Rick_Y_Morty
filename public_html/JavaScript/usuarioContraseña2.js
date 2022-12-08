@@ -34,14 +34,14 @@ function orden()
 
 function preguntarUsuario()
 {
-    var usuario = trim(document.getElementById("nombre").value);
+    var usuario = document.getElementById("nombre").value;
     
     return usuario;
 }
 
 function preguntarContraseña()
 {
-    var contraseña = trim(document.getElementById("contraseña").value);
+    var contraseña = document.getElementById("contraseña").value;
     
     return contraseña;
 }
@@ -76,7 +76,7 @@ function esUsuarioCorrecto(pUsuarioIntrodCorrecto)
 {
     var respuesta;
     
-    if(pUsuarioIntrodCorrecto === "Rickmaniacos")
+    if(pUsuarioIntrodCorrecto === "Morty")
     {
         respuesta = true;
     }
@@ -92,7 +92,7 @@ function esContraseñaCorrecta(pContraseñaIntrodCorrecta)
 {
     var respuesta;
     
-    if(pContraseñaIntrodCorrecta === "C-137")
+    if(pContraseñaIntrodCorrecta === "Malvado")
     {
         respuesta = true;
     }
