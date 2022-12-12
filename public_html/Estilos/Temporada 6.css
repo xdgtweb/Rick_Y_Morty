@@ -412,8 +412,7 @@ border: 1px #3AFF00 solid;
 
 body main .main3 .cajamain10
 {
-/*    border: 1px #3AFF00 solid;*/
-    border: 1px red solid;
+    border: 1px #3AFF00 solid;
     border-radius: 7px;
     display: inline-grid;
     text-align: left;
@@ -808,8 +807,7 @@ body main .main3 .cajamain10 a > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
-    background-color: red;
+    background-color: #3AFF00;
 }
 
 body main .main3 .cajamain11 a > label
@@ -821,8 +819,7 @@ body main .main3 .cajamain11 a > label
     padding: 5px;
     cursor: url("../Imagenes/Index/cursorhover.ico"), default;
     font-family: ordenador;
-    /*    background-color: #3AFF00;*/
-    background-color: red;
+    background-color: #3AFF00;
 }
 
 body main .main3 .cajamain1 a .tituloEpisodio > label
@@ -1599,8 +1596,7 @@ border: 1px #3AFF00 solid;
 
     body main .main3 .cajamain10
     {
-        /*    border: 1px #3AFF00 solid;*/
-        border: 1px red solid;
+        border: 1px #3AFF00 solid;
         border-radius: 7px;
         display: inline-grid;
         text-align: left;
