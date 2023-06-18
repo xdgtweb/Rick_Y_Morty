@@ -1,0 +1,16 @@
+.contacto
+{
+    display: grid;
+    position:fixed;
+    font-family: ordenador;
+    bottom: 5px;
+    z-index:9;
+    right: 5px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
+
+.contacto > a
+{
+    margin: 3px;
+    cursor: url("../Imagenes/Index/cursorhover.ico"), default;
+}
